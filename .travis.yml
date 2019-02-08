@@ -1,0 +1,14 @@
+language: rust
+sudo: false
+
+rust:
+  - stable
+  - nightly
+
+os:
+  - linux
+  - osx
+  - windows
+
+script:
+  - cargo test 

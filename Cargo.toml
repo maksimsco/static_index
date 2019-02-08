@@ -1,0 +1,14 @@
+[package]
+authors = ["Maksims Ivanovs"]
+edition = "2018"
+name = "static_index"
+version = "0.1.0"
+
+[dependencies.codegen]
+path = "codegen"
+
+[dependencies.codegen_const]
+path = "codegen_const"
+
+[workspace]
+members = ["codegen", "codegen_const"]

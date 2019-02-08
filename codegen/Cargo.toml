@@ -1,0 +1,16 @@
+[package]
+name = "codegen"
+version = "0.1.0"
+authors = ["Maksims Ivanovs"]
+edition = "2018"
+
+[dependencies]
+syn = "0.15"
+quote = "0.6"
+proc-macro2 = "0.4"
+
+[dependencies.codegen_const]
+path = "../codegen_const"
+
+[lib]
+proc-macro = true
