@@ -1,7 +1,7 @@
 //! Proc macro for generating unique static indexes in a range `0..N`. Ordering
 //! of indexes is not guaranteed.
 //!
-//! [![Build Status](https://api.travis-ci.org/maksimsco/static_index.svg?branch=master.svg?branch=master)](https://api.travis-ci.org/maksimsco/static_index.svg?branch=master)
+//! [![Build Status](https://api.travis-ci.org/maksimsco/static_index.svg?branch=master.svg?branch=master)](https://travis-ci.org/maksimsco/static_index)
 //!
 //! ## Example
 //!
